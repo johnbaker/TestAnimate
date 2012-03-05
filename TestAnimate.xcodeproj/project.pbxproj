@@ -7,20 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5219CD4D15046E1F00E9A541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7F00915046DCB005C3A50 /* AppDelegate.m */; };
+		5219CD4E15046E1F00E9A541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7F00F15046DCB005C3A50 /* main.m */; };
+		5219CD4F15046E1F00E9A541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7F01715046DCB005C3A50 /* ViewController.m */; };
 		522FD363150444430084E846 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522FD362150444430084E846 /* UIKit.framework */; };
 		522FD365150444430084E846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522FD364150444430084E846 /* Foundation.framework */; };
 		522FD367150444430084E846 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522FD366150444430084E846 /* CoreGraphics.framework */; };
-		522FD36D150444430084E846 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522FD36B150444430084E846 /* InfoPlist.strings */; };
-		522FD36F150444430084E846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FD36E150444430084E846 /* main.m */; };
-		522FD373150444430084E846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FD372150444430084E846 /* AppDelegate.m */; };
-		522FD376150444430084E846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FD375150444430084E846 /* ViewController.m */; };
-		522FD379150444430084E846 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522FD377150444430084E846 /* ViewController.xib */; };
 		522FD38A150444A80084E846 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522FD388150444A80084E846 /* OpenGLES.framework */; };
 		522FD38B150444A80084E846 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522FD389150444A80084E846 /* QuartzCore.framework */; };
-		52F452B415045D950033B72A /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F452B015045D950033B72A /* one.png */; };
-		52F452B515045D950033B72A /* one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F452B115045D950033B72A /* one@2x.png */; };
-		52F452B615045D950033B72A /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F452B215045D950033B72A /* two.png */; };
-		52F452B715045D950033B72A /* two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F452B315045D950033B72A /* two@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,21 +22,21 @@
 		522FD362150444430084E846 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		522FD364150444430084E846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		522FD366150444430084E846 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		522FD36A150444430084E846 /* TestAnimate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAnimate-Info.plist"; sourceTree = "<group>"; };
-		522FD36C150444430084E846 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		522FD36E150444430084E846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		522FD370150444430084E846 /* TestAnimate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAnimate-Prefix.pch"; sourceTree = "<group>"; };
-		522FD371150444430084E846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		522FD372150444430084E846 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		522FD374150444430084E846 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		522FD375150444430084E846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		522FD378150444430084E846 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		522FD388150444A80084E846 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		522FD389150444A80084E846 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		52F452B015045D950033B72A /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
-		52F452B115045D950033B72A /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one@2x.png"; sourceTree = "<group>"; };
-		52F452B215045D950033B72A /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
-		52F452B315045D950033B72A /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two@2x.png"; sourceTree = "<group>"; };
+		52C7F00815046DCB005C3A50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestAnimate/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		52C7F00915046DCB005C3A50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestAnimate/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		52C7F00C15046DCB005C3A50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		52C7F00E15046DCB005C3A50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController.xib; sourceTree = "<group>"; };
+		52C7F00F15046DCB005C3A50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestAnimate/main.m; sourceTree = SOURCE_ROOT; };
+		52C7F01015046DCB005C3A50 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = one.png; path = TestAnimate/one.png; sourceTree = SOURCE_ROOT; };
+		52C7F01115046DCB005C3A50 /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "one@2x.png"; path = "TestAnimate/one@2x.png"; sourceTree = SOURCE_ROOT; };
+		52C7F01215046DCB005C3A50 /* TestAnimate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestAnimate-Info.plist"; path = "TestAnimate/TestAnimate-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52C7F01315046DCB005C3A50 /* TestAnimate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestAnimate-Prefix.pch"; path = "TestAnimate/TestAnimate-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		52C7F01415046DCB005C3A50 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = two.png; path = TestAnimate/two.png; sourceTree = SOURCE_ROOT; };
+		52C7F01515046DCB005C3A50 /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "two@2x.png"; path = "TestAnimate/two@2x.png"; sourceTree = SOURCE_ROOT; };
+		52C7F01615046DCB005C3A50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TestAnimate/ViewController.h; sourceTree = SOURCE_ROOT; };
+		52C7F01715046DCB005C3A50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TestAnimate/ViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,31 +87,32 @@
 		522FD368150444430084E846 /* TestAnimate */ = {
 			isa = PBXGroup;
 			children = (
-				522FD371150444430084E846 /* AppDelegate.h */,
-				522FD372150444430084E846 /* AppDelegate.m */,
-				522FD374150444430084E846 /* ViewController.h */,
-				522FD375150444430084E846 /* ViewController.m */,
-				522FD377150444430084E846 /* ViewController.xib */,
-				52F452B015045D950033B72A /* one.png */,
-				52F452B115045D950033B72A /* one@2x.png */,
-				52F452B215045D950033B72A /* two.png */,
-				52F452B315045D950033B72A /* two@2x.png */,
-				522FD369150444430084E846 /* Supporting Files */,
+				52C7F00815046DCB005C3A50 /* AppDelegate.h */,
+				52C7F00915046DCB005C3A50 /* AppDelegate.m */,
+				52C7F00A15046DCB005C3A50 /* en.lproj */,
+				52C7F00F15046DCB005C3A50 /* main.m */,
+				52C7F01015046DCB005C3A50 /* one.png */,
+				52C7F01115046DCB005C3A50 /* one@2x.png */,
+				52C7F01215046DCB005C3A50 /* TestAnimate-Info.plist */,
+				52C7F01315046DCB005C3A50 /* TestAnimate-Prefix.pch */,
+				52C7F01415046DCB005C3A50 /* two.png */,
+				52C7F01515046DCB005C3A50 /* two@2x.png */,
+				52C7F01615046DCB005C3A50 /* ViewController.h */,
+				52C7F01715046DCB005C3A50 /* ViewController.m */,
 			);
 			name = TestAnimate;
 			path = /Users/john/Code/TestAnimate/TestAnimate;
 			sourceTree = "<absolute>";
 		};
-		522FD369150444430084E846 /* Supporting Files */ = {
+		52C7F00A15046DCB005C3A50 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				522FD36A150444430084E846 /* TestAnimate-Info.plist */,
-				522FD36B150444430084E846 /* InfoPlist.strings */,
-				522FD36E150444430084E846 /* main.m */,
-				522FD370150444430084E846 /* TestAnimate-Prefix.pch */,
+				52C7F00B15046DCB005C3A50 /* InfoPlist.strings */,
+				52C7F00D15046DCB005C3A50 /* ViewController.xib */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			name = en.lproj;
+			path = TestAnimate/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -169,12 +164,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522FD36D150444430084E846 /* InfoPlist.strings in Resources */,
-				522FD379150444430084E846 /* ViewController.xib in Resources */,
-				52F452B415045D950033B72A /* one.png in Resources */,
-				52F452B515045D950033B72A /* one@2x.png in Resources */,
-				52F452B615045D950033B72A /* two.png in Resources */,
-				52F452B715045D950033B72A /* two@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,27 +174,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522FD36F150444430084E846 /* main.m in Sources */,
-				522FD373150444430084E846 /* AppDelegate.m in Sources */,
-				522FD376150444430084E846 /* ViewController.m in Sources */,
+				5219CD4D15046E1F00E9A541 /* AppDelegate.m in Sources */,
+				5219CD4E15046E1F00E9A541 /* main.m in Sources */,
+				5219CD4F15046E1F00E9A541 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		522FD36B150444430084E846 /* InfoPlist.strings */ = {
+		52C7F00B15046DCB005C3A50 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				522FD36C150444430084E846 /* en */,
+				52C7F00C15046DCB005C3A50 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		522FD377150444430084E846 /* ViewController.xib */ = {
+		52C7F00D15046DCB005C3A50 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				522FD378150444430084E846 /* en */,
+				52C7F00E15046DCB005C3A50 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
